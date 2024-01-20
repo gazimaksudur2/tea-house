@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome cdn  -->
+    <script src="https://kit.fontawesome.com/2e724ff530.js" crossorigin="anonymous"></script>
+    <title>Tea House</title>
+    <!-- Tailwind custom classes  -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'col-primary': '#1C1C1C',
+                        'col-secondary': '#777',
+                        'col-tertiary': '#494949',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- CSS custom styles  -->
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="font-manrope">
+    <header class="container mx-auto">
+        <!-- banner section goes here  -->
+        <div class="hero min-h-screen bg-base-200">
+            <div class="hero-content flex-col justify-between gap-20 lg:flex-row">
+                <div>
+                    <h1 class="text-7xl font-extrabold text-col-primary">It's good <br>
+                        tea time at The <br>Tea House</h1>
+                    <p class="py-6 w-3/4 text-lg font-medium text-col-secondary">Tea and Botanical Solutions Supplier Give
+                        Optimum Satisfaction To Your Taste Buds.
+                    </p>
+                    <button class="btn btn-primary capitalize">Explore more</button>
+                </div>
+                <div>
+                    <img src="images/banner.png" class="max-w-sm scale-150" />
+                    <div class="-mt-4 w-60 flex gap-6 rounded-tr-lg bg-white shadow-md px-7 py-5 items-center absolute">
+                        <i class="fa-solid fa-star text-amber-400"></i>
+                        <div>
+                            <h5 class="text-3xl font-extrabold text-col-primary">5.00</h5>
+                            <p class="capitalize text-sm font-semibold text-col-secondary ">trust pilot ratings</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="container mx-auto">
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
