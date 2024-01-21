@@ -27,6 +27,9 @@
                         'col-grad-end': 'rgba(244, 244, 244, 0.00)',
                         'col-fresh-start': '#F00',
                         'col-fresh-end': '#FF8938',
+                        // 'grad-start-primary': '#F00',
+                        // 'grad-end-primary': '#FF8938',
+
                     }
                 }
             }
@@ -52,12 +55,12 @@
                         Give
                         Optimum Satisfaction To Your Taste Buds.
                     </p>
-                    <button class="btn btn-primary capitalize">Explore more</button>
+                    <button class="capitalize text-white text-xl font-bold bg-gradient-to-l from-col-fresh-start to-col-fresh-end px-6 py-4 rounded-lg">Explore more <i class="fa-solid fa-square-arrow-up-right text-red-600 bg-white scale-150"></i></button>
                 </div>
                 <div>
                     <img src="images/banner.png" class="max-w-sm lg:scale-150" />
                     <div class="-mt-4 w-60 flex gap-6 rounded-tr-lg bg-white shadow-md px-7 py-5 items-center absolute">
-                        <i class="fa-solid fa-star text-amber-400"></i>
+                        <i class="fa-solid fa-star text-amber-400 box-shado"></i>
                         <div>
                             <h5 class="text-3xl font-extrabold text-col-primary">5.00</h5>
                             <p class="capitalize text-sm font-semibold text-col-secondary ">trust pilot ratings</p>
@@ -116,34 +119,181 @@
             </div>
         </section>
         <!-- Great Tea section  -->
-        <section class="flex flex-row justify-between gap-12 lg:m-20">
-            <div class="w-2/5 h-[75vh] flex flex-col gap-7 lg:flex-row">
-                <div class="w-1/2 flex flex-col justify-between gap-10">
-                    <div class="h-1/4 rounded-xl bg-gradient-to-r from-red-50 to-orange-50"></div>
-                    <div class="h-3/4 bg-[#394C271A] rounded-xl flex justify-center items-center">
+        <section class="flex flex-col justify-between m-10 gap-20 items-center lg:gap-12 lg:flex-row lg:m-20">
+            <div class="w-full lg:w-2/5 h-[120vh] lg:h-[75vh] flex flex-col items-center gap-7 lg:flex-row">
+                <div class="w-3/4 lg:w-1/2 h-full flex flex-col justify-between gap-10 lg:gap-5">
+                    <div class="h-20 w-full lg:h-[15%] rounded-xl bg-gradient-to-r from-red-50 to-orange-50"></div>
+                    <div class="h-[85%] lg:h-[75%] bg-[#394C271A] rounded-xl flex justify-center items-center">
                         <img class="" src="images/fresh-2.png" alt="">
                     </div>
                 </div>
-                <div class="w-1/2 flex flex-col justify-between gap-10">
-                    <div class="h-3/4 bg-gradient-to-r from-red-100 to-orange-100 rounded-xl flex justify-center items-center">
+                <div class="w-3/4 lg:w-1/2 h-full flex flex-col justify-between gap-10 lg:gap-5">
+                    <div
+                        class="h-[85%] lg:h-[75%] bg-gradient-to-r from-red-100 to-orange-100 rounded-xl flex justify-center items-center">
                         <img class="" src="images/fresh-1.png" alt="">
                     </div>
-                    <div class="h-1/4 rounded-xl bg-gradient-to-r from-[#D9D9D9] to-gray-100"></div>
+                    <div class="h-20 lg:h-[18%] rounded-xl bg-gradient-to-r from-[#D9D9D9] to-gray-100"></div>
                 </div>
             </div>
-            <div class="w-3/5 great-tea lg:px-20">
+            <div class="w-full lg:w-3/5 great-tea lg:px-20">
                 <h2 class="text-col-primary font-extrabold text-5xl mb-5">Great Tea, Freshly <br>Presented</h2>
-                <p class="text-col-secondary font-medium text-lg mb-7">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+                <p class="text-col-secondary font-medium text-lg mb-7">The meaning of gong cha is chanese is to provide
+                    the best tea to emperor from all possessions . It represents the highest quality and self
+                    expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers because of
+                    good words of mouth and unique customized service orginated from Taiwan.</p>
                 <h4 class="text-col-primary text-xl font-extrabold mb-3">Unique Taste</h4>
-                <p class="text-col-secondary font-medium text-lg mb-5">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+                <p class="text-col-secondary font-medium text-lg mb-5">A Unique and different style from other teapots
+                    gives a luxurious and minimalist impression</p>
                 <h4 class="text-col-primary text-xl font-extrabold mb-3">Premium Quality</h4>
-                <p class="text-col-secondary font-medium text-lg mb-5">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+                <p class="text-col-secondary font-medium text-lg mb-5">Premium Quality that makes tea more elegant and
+                    more durable when you use it.</p>
+            </div>
+        </section>
+        <!-- super clients section  -->
+        <section class="mx-10 mb-10 lg:mx-20 rounded-xl bg-gradient-to-l from-col-fresh-start to-col-fresh-end">
+            <div class="px-20 py-24 flex flex-col lg:gap-32 lg:flex-row">
+                <div class="space-y-7  flex flex-col justify-center">
+                    <h2 class="text-white text-5xl font-extrabold">Meet Our Super <br>Clients</h2>
+                    <p class="text-white text-lg font-medium">There are many variations of passages of Lorem Ipsum
+                        available, but the majority have suffered alteration in some form, by injected humour, or
+                        randomised words which don't look even slightly believable. </p>
+                    <button class="w-1/5 capitalize bg-white rounded-lg p-4 ">
+                        <div
+                            class="bg-gradient-to-l from-col-fresh-start to-col-fresh-end text-transparent bg-clip-text">
+                            <p class="text-xl font-bold">show all</p>
+                        </div>
+                    </button>
+                </div>
+                <div class="relative">
+                    <!-- super client next  -->
+                    <div class="relative opacity-40 bg-white p-12 rounded-lg">
+                        <img class="absolute -top-5 -left-8 object-cover bg-white border-white border-4 rounded-full"
+                            src="images/client.png" alt="">
+                        <p class="text-col-secondary text-lg font-normal">We are providing the best and suitable home
+                            insurance services for the people who are interested to treatment</p>
+                        <h4 class="capitalize text-lg mt-5 font-bold">ilham yuda</h4>
+                        <p class="text-lg font-normal">Businessman</p>
+                    </div>
+                    <!-- super client current  -->
+                    <div class="absolute bg-white z-10 p-12 rounded-lg top-36 -left-20 w-[100%]">
+                        <img class="absolute -top-5 -left-8 object-cover bg-white border-white border-4 rounded-full"
+                            src="images/client.png" alt="">
+                        <p class="text-col-secondary text-lg font-normal">We are providing the best and suitable home
+                            insurance services for the people who are interested to treatment</p>
+                        <h4 class="capitalize text-lg mt-5 font-bold">ilham yuda</h4>
+                        <p class="text-lg font-normal">Businessman</p>
+                    </div>
+                    <!-- super client previous  -->
+                    <div class="relative opacity-40 bg-white p-12 rounded-lg mt-20">
+                        <img class="absolute -top-5 -left-8 object-cover bg-white border-white border-4 rounded-full"
+                            src="images/client.png" alt="">
+                        <p class="text-col-secondary text-lg font-normal">We are providing the best and suitable home
+                            insurance services for the people who are interested to treatment</p>
+                        <h4 class="capitalize text-lg mt-5 font-bold">ilham yuda</h4>
+                        <p class="text-lg font-normal">Businessman</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- news section goes here  -->
+        <section class="mx-2 my-4 lg:mx-20 lg:my-16 ">
+            <div class="space-y-5">
+                <h2 class="text-center text-col-primary text-5xl font-extrabold">News & Events</h2>
+                <p class="text-col-secondary text-center px-4 lg:px-44 text-lg font-medium">There are many variations of
+                    passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by
+                    injected humour, or randomised words which don't look even slightly believable. </p>
+            </div>
+            <div class="card-container mx-10 my-10 md:mx-5 lg:mx-0 grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <!-- card-1  -->
+                <div class="bg-base-100 p-5 border-2 rounded-xl border-[#D2D2D2]">
+                    <figure><img class="w-full object-cover" src="images/news-1.png" alt="news-1" /></figure>
+                    <div class="car px-3 py-4 space-y-3">
+                        <p class="text-col-secondary text-lg font-medium">Feb 05, 2027</p>
+                        <h2 class="card-title text-col-primary text-xl font-extrabold">
+                            Collecting 8 points for <br>discount
+                        </h2>
+                        <p class="text-col-secondary text-lg font-medium">There are many variations of passages of Lorem Ipsum available.</p>
+                        <h5 class="text-col-primary text-lg font-bold">Learn More</h5>
+                    </div>
+                </div>
+                <!-- card-1  -->
+                <div class="bg-base-100 p-5 border-2 rounded-xl border-[#D2D2D2]">
+                    <figure><img class="w-full object-cover" src="images/news-2.png" alt="news-2" /></figure>
+                    <div class="car px-3 py-4 space-y-3">
+                        <p class="text-col-secondary text-lg font-medium">Feb 05, 2027</p>
+                        <h2 class="card-title text-col-primary text-xl font-extrabold">
+                            Collecting 8 points for <br>discount
+                        </h2>
+                        <p class="text-col-secondary text-lg font-medium">There are many variations of passages of Lorem Ipsum available.</p>
+                        <h5 class="text-col-primary text-lg font-bold">Learn More</h5>
+                    </div>
+                </div>
+                <!-- card-3  -->
+                <div class="bg-base-100 p-5 border-2 rounded-xl border-[#D2D2D2]">
+                    <figure><img class="w-full object-cover" src="images/news-3.png" alt="news-3" /></figure>
+                    <div class="car px-3 py-4 space-y-3">
+                        <p class="text-col-secondary text-lg font-medium">Feb 05, 2027</p>
+                        <h2 class="card-title text-col-primary text-xl font-extrabold">
+                            Collecting 8 points for <br>discount
+                        </h2>
+                        <p class="text-col-secondary text-lg font-medium">There are many variations of passages of Lorem Ipsum available.</p>
+                        <h5 class="text-col-primary text-lg font-bold">Learn More</h5>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
-    <footer>
-
-    </footer>
+    <footer class="mt-10 p-10 py-6 space-y-5 lg:space-y-20 lg:px-52 lg:py-24 bg-gradient-to-r from-red-100 via-orange-100 to-gray-100 lg:mt-28">
+        <div class="flex justify-between">
+            <img src="images/cup.png" alt="cup">
+            <div class="flex flex-col items-center gap-6 md:flex-row">
+                <p class="text-col-tertiary text-xl font-medium">Ready to get started?</p>
+                <button class="capitalize text-white text-xl font-bold bg-gradient-to-l from-col-fresh-start to-col-fresh-end px-6 py-4 rounded-lg">get started</button>
+            </div>
+        </div>
+        <div class="footer text-base-content justify-between">
+            <nav class="space-y-3">
+                <header class=" text-lg font-semibold mb-6">Quick Links</header> 
+                <a class="link link-hover text-col-tertiary text-sm font-normal">home</a>
+                <a class="link link-hover text-col-tertiary text-sm font-normal">About Us</a>
+                <a class="link link-hover text-col-tertiary text-sm font-normal">Insurance</a>
+                <a class="link link-hover text-col-tertiary text-sm font-normal">Privacy Policy</a>
+              </nav> 
+              <nav class="space-y-3">
+                <header class="text-col-primary text-lg font-semibold mb-6">Our Service</header> 
+                <a class="link link-hover text-col-tertiary text-sm font-normal">Life Insurance</a>
+                <a class="link link-hover text-col-tertiary text-sm font-normal">Car Insurance</a>
+                <a class="link link-hover text-col-tertiary text-sm font-normal">Health Insurance</a>
+                <a class="link link-hover text-col-tertiary text-sm font-normal">House Insurance</a>
+              </nav> 
+              <nav class="space-y-3">
+                <header class="text-col-primary text-lg font-semibold mb-6">Help</header> 
+                <a class="link link-hover text-col-tertiary text-sm font-normal">FAQs</a>
+                <a class="link link-hover text-col-tertiary text-sm font-normal">Contact Us</a>
+              </nav> 
+              <form class="space-y-3">
+                <header class="text-col-primary text-lg font-semibold mb-6"> Subscribe to our <br>newsletter</header> 
+                <fieldset class="form-control w-80">
+                  <label class="label">
+                  </label> 
+                  <div class="">
+                    <input type="email" placeholder="Email address" class="pb-4 bg-transparent border-b-2 border-b-gray-400 mr-5" /> 
+                    <button class="btn bg-gradient-to-l from-col-fresh-start to-col-fresh-end rounded-full"><i class="fa-solid fa-angle-right"></i></button>
+                  </div>
+                </fieldset>
+                <div class="social-icons text-3xl flex gap-10 my-6">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+              </form>
+        </div>
+        <div class="text-col-tertiary text-sm font-medium footer-center p-4 text-base-content">
+            <aside>
+              <p>© 2027 UI Design.to - All rights reserved.</p>
+            </aside>
+        </div>
+      </footer>
 </body>
 
 </html>
